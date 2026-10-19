@@ -13,7 +13,8 @@ public class SecurityConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                     "http://localhost:5173",
                     "http://localhost:5174",
-                    "https://LucianoGodoy22.github.io" // Reemplaza por tu usuario real de GitHub
+                    "https://LucianoGodoy22.github.io",
+                    "https://ivsantander-dot.github.io" // Reemplaza por tu usuario real de GitHub
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*");
